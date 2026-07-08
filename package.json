@@ -1,0 +1,34 @@
+{
+  "name": "chatsphere",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-grade real-time messaging platform built with MERN, TypeScript, Microservices and Docker.",
+  "license": "MIT",
+  "packageManager": "pnpm@11.10.0",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=11.0.0"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier --write .",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test",
+    "clean": "turbo run clean"
+  },
+  "keywords": [
+    "chat",
+    "messenger",
+    "microservices",
+    "mern",
+    "typescript",
+    "docker"
+  ],
+  "author": "Ganesh Kumar",
+  "devDependencies": {
+    "turbo": "^2.10.3"
+  }
+}
