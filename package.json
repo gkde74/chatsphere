@@ -10,7 +10,6 @@
     "pnpm": ">=11.0.0"
   },
   "scripts": {
-    "prepare": "husky",
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
@@ -29,6 +28,7 @@
   ],
   "author": "Ganesh Kumar",
   "devDependencies": {
+    "@nestjs/cli": "^11.0.23",
     "turbo": "^2.10.3"
   }
 }
